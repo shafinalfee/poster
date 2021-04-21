@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
+                
+    
+    <title>Poster Generator</title>
+</head>
+<style>
+    #img{
+        width: 430px;
+        height:430px; 
+        border-radius: 50%;
+        position: absolute;
+        top:183px;
+        left:335px;
+        display:none
+        
+    }
+</style>
+<body>
+    <div class="container">
+    <h1>Poster Generator</h1>
+    <p class="paragraph"></p>
+   
+    <label>
+        Name :
+    <input id="name" type='text'>
+    </label> 
+   
+    <label>
+        Institution Name :
+    <input id="ins" type='text'>
+    </label>
+    <a href="#" id="download-btn">Download</a>
+</div>
+<input type='file' id='button'>
+<div>
+    
+    
+    <canvas id="canvas" width="800px" height="800px" ></canvas>
+    <img src='' id='img'>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+  <script src="volscript.js"></script>
+  
+  
+ 
+  
+</body>
+</html>

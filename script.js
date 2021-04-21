@@ -18,7 +18,7 @@ image.onload = function(){
 }
   
 function drawImage(){
-    ctx.drawImage(imgInput, 328, 59, 430, 430)
+    ctx.drawImage(imgInput, 328, 57, 430, 430)
     ctx.drawImage(image, 0, 0,canvas.width,canvas.height);
     ctx.strokeStyle = "blue";
     ctx.moveTo(530, 600);

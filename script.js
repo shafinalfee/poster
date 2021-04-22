@@ -12,7 +12,7 @@ button.addEventListener('change',function(){
 }) 
 
 const image = new Image()
-image.src = '1.png'
+image.src = '2.png'
 image.onload = function(){
   drawImage()
 }
